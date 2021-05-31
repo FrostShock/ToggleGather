@@ -1,0 +1,5 @@
+<Bindings>
+  <Binding name="TOGGLEGATHER" header="TOGGLEGATHER">
+    ToggleGather();
+  </Binding>
+</Bindings>
