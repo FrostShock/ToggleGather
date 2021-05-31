@@ -1,2 +1,7 @@
 # ToggleGather
-Toggle between Find Minerals and Find Herbs with a single key
+This addon allows you to toggle between Find Herbs and Find Minerals, with a single key press.
+For setting the hotkey, check the key bindings in the Blizzard menu.
+
+Changelog:
+
+2021-05-31 - Ver 1.0 - first release
