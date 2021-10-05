@@ -4,7 +4,7 @@ For setting the hotkey, check the key bindings in the Blizzard menu.
 
 Use this Macro to find the icons like "Interface\Icons\Spell_Nature_Earthquake"
 
-/run local l=0;for l=1,120 do local t=GetActionText(l);local x=GetActionTexture(l);if x then local m="Slot "..l..": ["..x.."]";if t then m=m.." \""..t.."\"";end DEFAULT_CHAT_FRAME:AddMessage(m);end end
+  /run local l=0;for l=1,120 do local t=GetActionText(l);local x=GetActionTexture(l);if x then local m="Slot "..l..": ["..x.."]";if t then m=m.." \""..t.."\"";end DEFAULT_CHAT_FRAME:AddMessage(m);end end
 
 Changelog:
 
