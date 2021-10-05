@@ -5,4 +5,5 @@ For setting the hotkey, check the key bindings in the Blizzard menu.
 Changelog:
 
 2021-05-31 - Ver 1.0 - first release
+
 2021-10-06 - Ver 2.0 - fixed issue with Global Cooldown
