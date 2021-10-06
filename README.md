@@ -10,3 +10,4 @@ Changelog:
 
 * 2021-05-31 - Ver 1.0 - first release
 * 2021-10-06 - Ver 2.0 - fixed issue with Global Cooldown
+* 2021-10-06 - Ver 3.0 - Made it work properly when you have only one of the two professions, or none
