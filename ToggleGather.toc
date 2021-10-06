@@ -1,4 +1,5 @@
 ## Interface: 11200
 ## Notes: Toggle between Find Minerals and Find Herbs with a single key
+## Version: 3.0
 
 ToggleGather.lua
