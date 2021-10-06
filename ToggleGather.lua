@@ -18,6 +18,7 @@ function ToggleGather()
 --  echo(MyTime);
 --  DEFAULT_CHAT_FRAME:AddMessage("|cffffff00Time: ");
 --  DEFAULT_CHAT_FRAME:AddMessage("|cffffff00Time: "..MyTime);
+--  DEFAULT_CHAT_FRAME:AddMessage("|cffffff00Time: "..MyTime.." - "..tostring(PlayerHas_Find_Herbs).." - "..tostring(PlayerHas_Find_Minerals));
 end
 
 PlayerHas_Find_Herbs = false;
@@ -28,9 +29,11 @@ function DetectGathers()
     local spellName = GetSpellName(i,"spellbook");
     if spellName == "Find Herbs" then
       PlayerHas_Find_Herbs = true
+      DEFAULT_CHAT_FRAME:AddMessage("|cffffff00 -- Herbalism detected");
     end
     if spellName == "Find Minerals" then
       PlayerHas_Find_Minerals = true
+      DEFAULT_CHAT_FRAME:AddMessage("|cffffff00 -- Mining detected");
     end
   end
 end
